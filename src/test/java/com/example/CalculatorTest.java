@@ -43,6 +43,20 @@ public class CalculatorTest {
 
         assertEquals(6, result, "10 - 4 should equal 6");
     }
-    
+    @Test
+    @DisplayName("Test multiplication of two numbers")
+    void testMultiplication() {
+
+        int a = 6;
+        int b = 7;
+
+
+        int result = calculator.multiply(a, b);
+
+
+        assertEquals(42, result, "6 * 7 should equal 42");
+    }
+
+
 
 }
