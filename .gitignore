@@ -1,0 +1,24 @@
+# Maven
+target/
+
+
+# IDE
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/settings.json
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+
+
+# Logs
+*.log
+
+# Package Files
+*.jar
+*.zip
